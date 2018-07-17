@@ -8,7 +8,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+<<<<<<< HEAD
 	  
+=======
+	  <?=anchor(base_url(), 'PET SHOP', ['class'=>'navbar-brand'])?>
+>>>>>>> 3a79c8d69a33dfb5048a124d5b92b6f8ae7bf9fd
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,7 +21,10 @@
 	<?php if($this->session->userdata('username')) : ?>
       <ul class="nav navbar-nav navbar-left">
         <li><?=anchor('admin/products','Products')?></li>
+<<<<<<< HEAD
         <li><?=anchor('admin/invoices','Invoices')?></li>
+=======
+>>>>>>> 3a79c8d69a33dfb5048a124d5b92b6f8ae7bf9fd
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>

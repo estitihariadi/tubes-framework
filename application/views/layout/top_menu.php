@@ -8,7 +8,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+<<<<<<< HEAD
 	  
+=======
+	  <?=anchor(base_url(), 'PET SHOP', ['class'=>'navbar-brand'])?>
+>>>>>>> 3a79c8d69a33dfb5048a124d5b92b6f8ae7bf9fd
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -16,13 +20,17 @@
       	  
       <ul class="nav navbar-nav navbar-right">
 		<li><?php echo anchor(base_url(), 'Home');?></li>
+<<<<<<< HEAD
     <li>
+=======
+       <!--  <li>
+>>>>>>> 3a79c8d69a33dfb5048a124d5b92b6f8ae7bf9fd
 			<?php
 				$text_cart_url  = '<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>';
 				$text_cart_url .= ' Inside Cart: '. $this->cart->total_items() .' items';
 			?>
 			<?=anchor('welcome/cart', $text_cart_url)?>
-		</li>
+		</li> -->
 		<?php if($this->session->userdata('username')) { ?>
 			<li><div style="line-height:50px;">You Are : <?=$this->session->userdata('username')?></div></li>
 			<li><?php echo anchor('logout', 'Logout');?></li>
