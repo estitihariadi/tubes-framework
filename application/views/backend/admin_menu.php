@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-	  <?=anchor(base_url(), 'PET SHOP', ['class'=>'navbar-brand'])?>
+	  
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,6 +17,7 @@
 	<?php if($this->session->userdata('username')) : ?>
       <ul class="nav navbar-nav navbar-left">
         <li><?=anchor('admin/products','Products')?></li>
+        <li><?=anchor('admin/invoices','Invoices')?></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
